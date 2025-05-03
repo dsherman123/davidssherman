@@ -1,2 +1,2 @@
 # davidssherman
-Davidssherman.com Landing Page
+Davidssherman.com Landing Page on GitHub
