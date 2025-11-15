@@ -27,16 +27,19 @@
 <div align="center">
 <div align="center">&nbsp;</div>
 
- <!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Dave King &amp; Asgard</title>
 </head>
+
 <body style="margin:0; padding:1rem; font-family: system-ui, sans-serif;">
 
-  <h2>Click to hear what you missed in the 70s!</h2>
-  
+  <h2 style="cursor:pointer; color:#0066cc; text-decoration:underline;"
+      onclick="document.getElementById('intro').play()">
+    Click to hear what you missed in the 70s!
+  </h2>
 
   <audio id="intro" autoplay loop controls>
     <source src="heygyp.mp3" type="audio/mpeg">
