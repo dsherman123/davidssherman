@@ -2,56 +2,7 @@
 <div align="center">
 <div align="center">
 <div align="center">
-
-    <div id="music-overlay" style="
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.8);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  z-index: 9999;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-">
-  <p style="margin-bottom: 1rem; font-size: 1.2rem; text-align: center;">
-    Welcome to Dave King & Asgard
-  </p>
-  <button id="music-start" style="
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 999px;
-    border: none;
-    cursor: pointer;
-  ">
-    ▶ Play Intro & Enter
-  </button>
-</div>
-
-<audio id="heygyp" src="heygyp.mp3" loop></audio>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var button = document.getElementById('music-start');
-    var audio  = document.getElementById('asgard-theme');
-    var overlay = document.getElementById('music-overlay');
-
-    if (!button || !audio || !overlay) return;
-
-    button.addEventListener('click', function () {
-      audio.play().then(function () {
-        overlay.style.display = 'none';
-      }).catch(function (err) {
-        console.warn('Autoplay failed:', err);
-        overlay.style.display = 'none';
-      });
-    });
-  });
-</script>
-
-
-  
+ 
 <table id="table4" border="0" width="930">
 <tbody>
 <tr>
